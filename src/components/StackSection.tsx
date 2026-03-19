@@ -2,14 +2,14 @@ import { motion } from 'framer-motion';
 import { Github, Mail } from 'lucide-react';
 
 const tools = [
-  { name: 'JavaScript', category: 'CORE LANGUAGE', yoe: 4 },
-  { name: 'TypeScript', category: 'TYPED SUPERSET', yoe: 3 },
-  { name: 'React', category: 'FRONTEND LIBRARY', yoe: 4 },
-  { name: 'Next.js', category: 'FULLSTACK FRAMEWORK', yoe: 3 },
-  { name: 'Go (Golang)', category: 'BACKEND PERFORMANCE', yoe: 2 },
-  { name: 'Discord.js', category: 'BOT FRAMEWORK', yoe: 4 },
-  { name: 'MongoDB', category: 'NOSQL DATABASE', yoe: 3 },
-  { name: 'Tailwind CSS', category: 'UTILITY CSS', yoe: 3 },
+  { name: 'JavaScript', category: 'CORE LANGUAGE', yoe: 4, logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+  { name: 'TypeScript', category: 'TYPED SUPERSET', yoe: 3, logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+  { name: 'React', category: 'FRONTEND LIBRARY', yoe: 4, logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+  { name: 'Next.js', category: 'FULLSTACK FRAMEWORK', yoe: 3, logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
+  { name: 'Go (Golang)', category: 'BACKEND PERFORMANCE', yoe: 2, logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg' },
+  { name: 'Discord.js', category: 'BOT FRAMEWORK', yoe: 4, logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg' },
+  { name: 'MongoDB', category: 'NOSQL DATABASE', yoe: 3, logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
+  { name: 'Tailwind CSS', category: 'UTILITY CSS', yoe: 3, logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
 ];
 
 const StackSection = () => {
