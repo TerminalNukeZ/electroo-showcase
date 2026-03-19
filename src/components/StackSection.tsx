@@ -50,8 +50,8 @@ const StackSection = () => {
                 className="glass-card p-4 flex items-center justify-between"
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-lg bg-muted flex items-center justify-center text-primary font-bold text-sm">
-                    {tool.name.charAt(0)}
+                  <div className="w-9 h-9 rounded-lg bg-muted flex items-center justify-center overflow-hidden p-1.5">
+                    <img src={tool.logo} alt={tool.name} className="w-full h-full object-contain" />
                   </div>
                   <div>
                     <p className="font-semibold text-sm">{tool.name}</p>
