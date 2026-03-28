@@ -1,6 +1,6 @@
 # Modern Responsive Portfolio Website
 
-[![Live Preview](https://img.shields.io/badge/Live-Preview-blue?style=flat&logo=vercel)](https://portfolio.electroo.space)  
+[![Live Preview](https://img.shields.io/badge/Live-Preview-blue?style=flat&logo=vercel)](https://electro.oops.wtf/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 
 A **modern, responsive, and fast portfolio website** built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Shadcn UI**. Perfect for showcasing projects, skills, and personal branding on any device.
@@ -57,7 +57,7 @@ Check out the live portfolio: [https://portfolio.electroo.space](https://portfol
 
 ### Using npm
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/TerminalNukeZ/modern-responsive-portfolio
 cd your-portfolio
 npm install
 npm run dev
@@ -65,7 +65,7 @@ npm run dev
 
 ### Using yarn
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/TerminalNukeZ/modern-responsive-portfolio
 cd your-portfolio
 yarn install
 yarn dev
@@ -73,7 +73,7 @@ yarn dev
 
 ### Using bun
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/TerminalNukeZ/modern-responsive-portfolio
 cd your-portfolio
 bun install
 bun run dev
